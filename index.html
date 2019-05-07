@@ -76,8 +76,14 @@
          setTimeout(function(){
             window.location.href = 'http://keralaresults.nic.in';
          }, 5000);
-      </script>
-           <p style="padding:0px;margin:0px 0PX 0PX 15%;font-family: 'Lato',sans-serif;color:white;text-decoration:none;">redirects in 5 seconds</p>
+      </script><script>
+var time=5;
+setInterval(function(){
+	var time=time-1;
+	document.getElementById('hai').innerHTML="Redirects In "+time+" Seconds";
+},1000);
+</script>
+           <p style="padding:0px;margin:0px 0PX 0PX 15%;font-family: 'Lato',sans-serif;color:white;text-decoration:none;">redirects insetInterval(function () { 5 seconds</p>
    </div>
 </div>
 </div>
